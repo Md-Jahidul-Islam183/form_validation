@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validation.js"></script>
+<title>Student Registration Form</title>
+</head>
+<style>
+body {
+  background-image: url('education2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+
+<body>
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+
+
+
+<table cellpadding="2" width="20%" background-image="transport.PNG" align="center"
+cellspacing="2">
+
+
+
+<tr>
+<td>Name:</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Father Name:</td>
+<td><input type="text" name="fathername" id="fathername"
+size="30"></td>
+</tr>
+
+<tr>
+<td>Mother Name:</td>
+<td><input type="text" name="fathername" id="fathername"
+size="30"></td>
+</tr>
+
+<tr>
+<td>
+Date Of Birth:
+</td>
+<td>
+<input type="date" name="Birthday"><br>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Present Address: 
+</td>
+<td>
+<textarea rows="4" cols="25" name="address">Address</textarea><br>
+</td>
+</tr>
+
+<tr>
+<td>
+Permanent Address: 
+</td>
+<td>
+<textarea rows="4" cols="25" name="address">Address</textarea><br>
+</td>
+</tr>
+
+<tr>
+<td>Sex:</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>Country:</td>
+<td><select name="Country">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">AMERICA</option>
+<option value="Afghanistan">AFGHANISTAN</option>
+<option value="Bangladesh">BANGLADESH</option>
+<option value="India">INDIA</option>
+<option value="China">CHINA</option>
+<option value="Nepal">NEPAL</option>
+<option value="Canada">CANADA</option>
+<option value="France">FRANCE</option>
+<option value="Italy">ITALY</option>
+<option value="Malaysia">MALAYSIA</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>
+Course:
+</td>
+<td>
+<input type="radio" name="Deparment">CSE
+<input type="radio" name="Deparment">EEE
+<input type="radio" name="Deparment">TEXTILE
+<input type="radio" name="Deparment">BBA
+<input type="radio" name="Deparment">PHARMACY
+<input type="radio" name="Deparment">LAW
+<input type="radio" name="Deparment">ENGLISH
+<input type="radio" name="Deparment">ITHM
+<input type="radio" name="Deparment">ARCHITECTURE<br>
+</td>
+</tr>
+
+
+<tr>
+<td>State:</td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="  "> </option>
+<option value=" "> </option>
+<option value=" "> </option>
+<option value=" "> </option>
+</select></td>
+</tr>
+
+<tr>
+<td>PinCode:</td>
+<td><input type="text" name="pincode" id="pincode" size="auto"></td>
+</tr>
+
+<tr>
+<td>
+Email:
+</td>
+<td>
+<input type="text" placeholder="Email" /></br>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Mobile No:
+</td>
+<td>
+<select>
+<option>+88</option>
+</select>
+<input type="phone" placeholder="01" /><br>
+</td>
+</tr>
+
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+</tr>
+
+
+</table>
+</form>
+</body>
+</html>
